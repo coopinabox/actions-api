@@ -13,17 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/holonomy/actions-api.git"
+    "url": "git://github.com/coopinabox/actions-api.git"
   },
   "author": "",
   "license": "AGPLv3",
   "bugs": {
-    "url": "https://github.com/holonomy/actions-api/issues"
+    "url": "https://github.com/coopinabox/actions-api/issues"
   },
-  "homepage": "https://github.com/holonomy/actions-api",
+  "homepage": "https://github.com/coopinabox/actions-api",
   "dependencies": {
-    "ciab-bookshelf": "^0.6.8",
-    "ciab-validation": "^0.9.1",
+    "ciab-bookshelf": "^0.1.0",
+    "ciab-validation": "^0.1.0",
     "ciab-actions": "^0.1.1"
   },
   "devDependencies": {
