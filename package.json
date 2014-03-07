@@ -1,0 +1,32 @@
+{
+  "name": "actions-api",
+  "version": "0.0.0",
+  "description": "api for actions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test npm run migrate && mocha test/*.js",
+    "migrate": "node_modules/ciab-bookshelf/node_modules/bookshelf/node_modules/knex/bin/knex --config node_modules/ciab-bookshelf/config.js migrate:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/holonomy/actions-api.git"
+  },
+  "author": "",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/holonomy/actions-api/issues"
+  },
+  "homepage": "https://github.com/holonomy/actions-api",
+  "dependencies": {
+    "ciab-bookshelf": "^0.6.8",
+    "ciab-validation": "^0.9.1",
+    "ciab-actions": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "chai": "^1.9.0"
+  }
+}
