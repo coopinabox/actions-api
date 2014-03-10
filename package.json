@@ -21,12 +21,15 @@
     "url": "https://github.com/coopinabox/actions-api/issues"
   },
   "homepage": "https://github.com/coopinabox/actions-api",
+  "peerDependencies": {
+    "ciab-bookshelf": "^0.1.0"
+  },
   "dependencies": {
-    "ciab-bookshelf": "^0.1.0",
     "ciab-validation": "^0.1.0",
     "ciab-actions": "^0.1.1"
   },
   "devDependencies": {
+    "ciab-bookshelf": "^0.1.0",
     "mocha": "^1.17.1",
     "chai": "^1.9.0",
     "npm-release": "0.0.4-3"
