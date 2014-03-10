@@ -1,0 +1,16 @@
+#!/bin/sh
+
+here=""
+
+if [ -d "node_modules/ciab-bookshelf" ]
+then
+  here="node_modules/ciab-bookshelf"
+elif [ -d "../../node_modules/ciab-bookshelf" ]
+then
+  here="../../node_modules/ciab-bookshelf"
+fi
+
+knex="$here/node_modules/bookshelf/node_modules/knex/bin/knex"
+config="$here/config.js"
+
+$knex --config $config migrate:latest

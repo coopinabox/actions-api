@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "NODE_ENV=test npm run migrate && mocha test/*.js",
-    "migrate": "node_modules/ciab-bookshelf/node_modules/bookshelf/node_modules/knex/bin/knex --config node_modules/ciab-bookshelf/config.js migrate:latest",
+    "migrate": "bin/migrate",
     "release": "npm-release patch -m \"version++\""
   },
   "repository": {
