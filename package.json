@@ -1,6 +1,6 @@
 {
   "name": "ciab-actions-api",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "api for actions",
   "main": "index.js",
   "directories": {
